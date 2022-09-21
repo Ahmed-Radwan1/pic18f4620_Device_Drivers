@@ -100,6 +100,13 @@
 
 
 /* ----------------- Data Type Declarations -----------------*/
+typedef union {
+    struct {
+        uint8_t read_write_bit : 1 ;
+        uint8_t address : 7 ;
+    };
+    uint8_t full_byte ;
+}i2c_slave_addr_t;
 typedef struct{
 	uint8 i2c_mode_cfg;             /* Master Synchronous Serial Port Mode Select */
     uint8 i2c_slave_address;        /* I2C Slave Address */

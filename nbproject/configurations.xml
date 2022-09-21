@@ -29,6 +29,12 @@
           <itemPath>ECU/RELAY/relay_cnfg.h</itemPath>
           <itemPath>ECU/RELAY/ecu_relay.h</itemPath>
         </logicalFolder>
+        <logicalFolder name="SERVO_MOTOR_I2C"
+                       displayName="SERVO_MOTOR_I2C"
+                       projectFiles="true">
+          <itemPath>ECU/SERVO_MOTOR_I2C/ecu_servo_motor_i2c.h</itemPath>
+          <itemPath>ECU/SERVO_MOTOR_I2C/ecu_servo_motor_cfg.h</itemPath>
+        </logicalFolder>
         <logicalFolder name="SEVEN_SEGMENT"
                        displayName="SEVEN_SEGMENT"
                        projectFiles="true">
@@ -111,6 +117,11 @@
         </logicalFolder>
         <logicalFolder name="RELAY" displayName="RELAY" projectFiles="true">
           <itemPath>ECU/RELAY/ecu_relay.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="SERVO_MOTOR_I2C"
+                       displayName="SERVO_MOTOR_I2C"
+                       projectFiles="true">
+          <itemPath>ECU/SERVO_MOTOR_I2C/ecu_servo_motor_i2c.c</itemPath>
         </logicalFolder>
         <logicalFolder name="SEVEN_SEGMENT"
                        displayName="SEVEN_SEGMENT"

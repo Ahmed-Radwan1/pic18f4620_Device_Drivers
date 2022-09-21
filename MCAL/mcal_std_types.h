@@ -31,9 +31,6 @@ typedef float               float32;
 typedef uint8               Std_returnType;
 
 
-
-
-
 /*macros declarations section*/
 #define NULL ((void*)0)
 
@@ -50,6 +47,7 @@ typedef uint8               Std_returnType;
 
 #define E_OK         (Std_returnType)  0x01
 #define E_NOK        (Std_returnType)  0x00
+#define E_NOT_OK        (Std_returnType)  0x00 
 
 #define ZERO_INIT        0
 /*function declarations section*/

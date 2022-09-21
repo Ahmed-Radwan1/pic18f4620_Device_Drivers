@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=ECU/BUTTON/ecu_button.c ECU/CHAR_LCD/ecu_char_lcd.c ECU/DC_MOTOR/ecu_dc_motor.c ECU/KEY_PAD/ecu_kaypad.c ECU/LED/ecu_led.c ECU/RELAY/ecu_relay.c ECU/SEVEN_SEGMENT/ecu_seven_segment.c ECU/ecu_layer_init.c MCAL/ADC/mcal_adc.c MCAL/CCP1/mcal_ccp1.c MCAL/EEPROM/mcal_eeprom.c MCAL/GPIO/hal_gpio.c MCAL/INTERRUPT/mcal_internal_interrupt.c MCAL/INTERRUPT/mcal_external_interrupt.c MCAL/INTERRUPT/mcal_interrupt_manager.c MCAL/TIMER0/mcal_timer0.c MCAL/TIMER1/mcal_timer1.c MCAL/TIMER2/mcal_timer2.c MCAL/TIMER3/mcal_timer3.c MCAL/USART/mcal_usart.c MCAL/device_config.c application.c MCAL/I2C/mcal_i2c.c
+SOURCEFILES_QUOTED_IF_SPACED=ECU/BUTTON/ecu_button.c ECU/CHAR_LCD/ecu_char_lcd.c ECU/DC_MOTOR/ecu_dc_motor.c ECU/KEY_PAD/ecu_kaypad.c ECU/LED/ecu_led.c ECU/RELAY/ecu_relay.c ECU/SERVO_MOTOR_I2C/ecu_servo_motor_i2c.c ECU/SEVEN_SEGMENT/ecu_seven_segment.c ECU/ecu_layer_init.c MCAL/ADC/mcal_adc.c MCAL/CCP1/mcal_ccp1.c MCAL/EEPROM/mcal_eeprom.c MCAL/GPIO/hal_gpio.c MCAL/I2C/mcal_i2c.c MCAL/INTERRUPT/mcal_internal_interrupt.c MCAL/INTERRUPT/mcal_external_interrupt.c MCAL/INTERRUPT/mcal_interrupt_manager.c MCAL/TIMER0/mcal_timer0.c MCAL/TIMER1/mcal_timer1.c MCAL/TIMER2/mcal_timer2.c MCAL/TIMER3/mcal_timer3.c MCAL/USART/mcal_usart.c MCAL/device_config.c application.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/ECU/BUTTON/ecu_button.p1 ${OBJECTDIR}/ECU/CHAR_LCD/ecu_char_lcd.p1 ${OBJECTDIR}/ECU/DC_MOTOR/ecu_dc_motor.p1 ${OBJECTDIR}/ECU/KEY_PAD/ecu_kaypad.p1 ${OBJECTDIR}/ECU/LED/ecu_led.p1 ${OBJECTDIR}/ECU/RELAY/ecu_relay.p1 ${OBJECTDIR}/ECU/SEVEN_SEGMENT/ecu_seven_segment.p1 ${OBJECTDIR}/ECU/ecu_layer_init.p1 ${OBJECTDIR}/MCAL/ADC/mcal_adc.p1 ${OBJECTDIR}/MCAL/CCP1/mcal_ccp1.p1 ${OBJECTDIR}/MCAL/EEPROM/mcal_eeprom.p1 ${OBJECTDIR}/MCAL/GPIO/hal_gpio.p1 ${OBJECTDIR}/MCAL/INTERRUPT/mcal_internal_interrupt.p1 ${OBJECTDIR}/MCAL/INTERRUPT/mcal_external_interrupt.p1 ${OBJECTDIR}/MCAL/INTERRUPT/mcal_interrupt_manager.p1 ${OBJECTDIR}/MCAL/TIMER0/mcal_timer0.p1 ${OBJECTDIR}/MCAL/TIMER1/mcal_timer1.p1 ${OBJECTDIR}/MCAL/TIMER2/mcal_timer2.p1 ${OBJECTDIR}/MCAL/TIMER3/mcal_timer3.p1 ${OBJECTDIR}/MCAL/USART/mcal_usart.p1 ${OBJECTDIR}/MCAL/device_config.p1 ${OBJECTDIR}/application.p1 ${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1
-POSSIBLE_DEPFILES=${OBJECTDIR}/ECU/BUTTON/ecu_button.p1.d ${OBJECTDIR}/ECU/CHAR_LCD/ecu_char_lcd.p1.d ${OBJECTDIR}/ECU/DC_MOTOR/ecu_dc_motor.p1.d ${OBJECTDIR}/ECU/KEY_PAD/ecu_kaypad.p1.d ${OBJECTDIR}/ECU/LED/ecu_led.p1.d ${OBJECTDIR}/ECU/RELAY/ecu_relay.p1.d ${OBJECTDIR}/ECU/SEVEN_SEGMENT/ecu_seven_segment.p1.d ${OBJECTDIR}/ECU/ecu_layer_init.p1.d ${OBJECTDIR}/MCAL/ADC/mcal_adc.p1.d ${OBJECTDIR}/MCAL/CCP1/mcal_ccp1.p1.d ${OBJECTDIR}/MCAL/EEPROM/mcal_eeprom.p1.d ${OBJECTDIR}/MCAL/GPIO/hal_gpio.p1.d ${OBJECTDIR}/MCAL/INTERRUPT/mcal_internal_interrupt.p1.d ${OBJECTDIR}/MCAL/INTERRUPT/mcal_external_interrupt.p1.d ${OBJECTDIR}/MCAL/INTERRUPT/mcal_interrupt_manager.p1.d ${OBJECTDIR}/MCAL/TIMER0/mcal_timer0.p1.d ${OBJECTDIR}/MCAL/TIMER1/mcal_timer1.p1.d ${OBJECTDIR}/MCAL/TIMER2/mcal_timer2.p1.d ${OBJECTDIR}/MCAL/TIMER3/mcal_timer3.p1.d ${OBJECTDIR}/MCAL/USART/mcal_usart.p1.d ${OBJECTDIR}/MCAL/device_config.p1.d ${OBJECTDIR}/application.p1.d ${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/ECU/BUTTON/ecu_button.p1 ${OBJECTDIR}/ECU/CHAR_LCD/ecu_char_lcd.p1 ${OBJECTDIR}/ECU/DC_MOTOR/ecu_dc_motor.p1 ${OBJECTDIR}/ECU/KEY_PAD/ecu_kaypad.p1 ${OBJECTDIR}/ECU/LED/ecu_led.p1 ${OBJECTDIR}/ECU/RELAY/ecu_relay.p1 ${OBJECTDIR}/ECU/SERVO_MOTOR_I2C/ecu_servo_motor_i2c.p1 ${OBJECTDIR}/ECU/SEVEN_SEGMENT/ecu_seven_segment.p1 ${OBJECTDIR}/ECU/ecu_layer_init.p1 ${OBJECTDIR}/MCAL/ADC/mcal_adc.p1 ${OBJECTDIR}/MCAL/CCP1/mcal_ccp1.p1 ${OBJECTDIR}/MCAL/EEPROM/mcal_eeprom.p1 ${OBJECTDIR}/MCAL/GPIO/hal_gpio.p1 ${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1 ${OBJECTDIR}/MCAL/INTERRUPT/mcal_internal_interrupt.p1 ${OBJECTDIR}/MCAL/INTERRUPT/mcal_external_interrupt.p1 ${OBJECTDIR}/MCAL/INTERRUPT/mcal_interrupt_manager.p1 ${OBJECTDIR}/MCAL/TIMER0/mcal_timer0.p1 ${OBJECTDIR}/MCAL/TIMER1/mcal_timer1.p1 ${OBJECTDIR}/MCAL/TIMER2/mcal_timer2.p1 ${OBJECTDIR}/MCAL/TIMER3/mcal_timer3.p1 ${OBJECTDIR}/MCAL/USART/mcal_usart.p1 ${OBJECTDIR}/MCAL/device_config.p1 ${OBJECTDIR}/application.p1
+POSSIBLE_DEPFILES=${OBJECTDIR}/ECU/BUTTON/ecu_button.p1.d ${OBJECTDIR}/ECU/CHAR_LCD/ecu_char_lcd.p1.d ${OBJECTDIR}/ECU/DC_MOTOR/ecu_dc_motor.p1.d ${OBJECTDIR}/ECU/KEY_PAD/ecu_kaypad.p1.d ${OBJECTDIR}/ECU/LED/ecu_led.p1.d ${OBJECTDIR}/ECU/RELAY/ecu_relay.p1.d ${OBJECTDIR}/ECU/SERVO_MOTOR_I2C/ecu_servo_motor_i2c.p1.d ${OBJECTDIR}/ECU/SEVEN_SEGMENT/ecu_seven_segment.p1.d ${OBJECTDIR}/ECU/ecu_layer_init.p1.d ${OBJECTDIR}/MCAL/ADC/mcal_adc.p1.d ${OBJECTDIR}/MCAL/CCP1/mcal_ccp1.p1.d ${OBJECTDIR}/MCAL/EEPROM/mcal_eeprom.p1.d ${OBJECTDIR}/MCAL/GPIO/hal_gpio.p1.d ${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1.d ${OBJECTDIR}/MCAL/INTERRUPT/mcal_internal_interrupt.p1.d ${OBJECTDIR}/MCAL/INTERRUPT/mcal_external_interrupt.p1.d ${OBJECTDIR}/MCAL/INTERRUPT/mcal_interrupt_manager.p1.d ${OBJECTDIR}/MCAL/TIMER0/mcal_timer0.p1.d ${OBJECTDIR}/MCAL/TIMER1/mcal_timer1.p1.d ${OBJECTDIR}/MCAL/TIMER2/mcal_timer2.p1.d ${OBJECTDIR}/MCAL/TIMER3/mcal_timer3.p1.d ${OBJECTDIR}/MCAL/USART/mcal_usart.p1.d ${OBJECTDIR}/MCAL/device_config.p1.d ${OBJECTDIR}/application.p1.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/ECU/BUTTON/ecu_button.p1 ${OBJECTDIR}/ECU/CHAR_LCD/ecu_char_lcd.p1 ${OBJECTDIR}/ECU/DC_MOTOR/ecu_dc_motor.p1 ${OBJECTDIR}/ECU/KEY_PAD/ecu_kaypad.p1 ${OBJECTDIR}/ECU/LED/ecu_led.p1 ${OBJECTDIR}/ECU/RELAY/ecu_relay.p1 ${OBJECTDIR}/ECU/SEVEN_SEGMENT/ecu_seven_segment.p1 ${OBJECTDIR}/ECU/ecu_layer_init.p1 ${OBJECTDIR}/MCAL/ADC/mcal_adc.p1 ${OBJECTDIR}/MCAL/CCP1/mcal_ccp1.p1 ${OBJECTDIR}/MCAL/EEPROM/mcal_eeprom.p1 ${OBJECTDIR}/MCAL/GPIO/hal_gpio.p1 ${OBJECTDIR}/MCAL/INTERRUPT/mcal_internal_interrupt.p1 ${OBJECTDIR}/MCAL/INTERRUPT/mcal_external_interrupt.p1 ${OBJECTDIR}/MCAL/INTERRUPT/mcal_interrupt_manager.p1 ${OBJECTDIR}/MCAL/TIMER0/mcal_timer0.p1 ${OBJECTDIR}/MCAL/TIMER1/mcal_timer1.p1 ${OBJECTDIR}/MCAL/TIMER2/mcal_timer2.p1 ${OBJECTDIR}/MCAL/TIMER3/mcal_timer3.p1 ${OBJECTDIR}/MCAL/USART/mcal_usart.p1 ${OBJECTDIR}/MCAL/device_config.p1 ${OBJECTDIR}/application.p1 ${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1
+OBJECTFILES=${OBJECTDIR}/ECU/BUTTON/ecu_button.p1 ${OBJECTDIR}/ECU/CHAR_LCD/ecu_char_lcd.p1 ${OBJECTDIR}/ECU/DC_MOTOR/ecu_dc_motor.p1 ${OBJECTDIR}/ECU/KEY_PAD/ecu_kaypad.p1 ${OBJECTDIR}/ECU/LED/ecu_led.p1 ${OBJECTDIR}/ECU/RELAY/ecu_relay.p1 ${OBJECTDIR}/ECU/SERVO_MOTOR_I2C/ecu_servo_motor_i2c.p1 ${OBJECTDIR}/ECU/SEVEN_SEGMENT/ecu_seven_segment.p1 ${OBJECTDIR}/ECU/ecu_layer_init.p1 ${OBJECTDIR}/MCAL/ADC/mcal_adc.p1 ${OBJECTDIR}/MCAL/CCP1/mcal_ccp1.p1 ${OBJECTDIR}/MCAL/EEPROM/mcal_eeprom.p1 ${OBJECTDIR}/MCAL/GPIO/hal_gpio.p1 ${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1 ${OBJECTDIR}/MCAL/INTERRUPT/mcal_internal_interrupt.p1 ${OBJECTDIR}/MCAL/INTERRUPT/mcal_external_interrupt.p1 ${OBJECTDIR}/MCAL/INTERRUPT/mcal_interrupt_manager.p1 ${OBJECTDIR}/MCAL/TIMER0/mcal_timer0.p1 ${OBJECTDIR}/MCAL/TIMER1/mcal_timer1.p1 ${OBJECTDIR}/MCAL/TIMER2/mcal_timer2.p1 ${OBJECTDIR}/MCAL/TIMER3/mcal_timer3.p1 ${OBJECTDIR}/MCAL/USART/mcal_usart.p1 ${OBJECTDIR}/MCAL/device_config.p1 ${OBJECTDIR}/application.p1
 
 # Source Files
-SOURCEFILES=ECU/BUTTON/ecu_button.c ECU/CHAR_LCD/ecu_char_lcd.c ECU/DC_MOTOR/ecu_dc_motor.c ECU/KEY_PAD/ecu_kaypad.c ECU/LED/ecu_led.c ECU/RELAY/ecu_relay.c ECU/SEVEN_SEGMENT/ecu_seven_segment.c ECU/ecu_layer_init.c MCAL/ADC/mcal_adc.c MCAL/CCP1/mcal_ccp1.c MCAL/EEPROM/mcal_eeprom.c MCAL/GPIO/hal_gpio.c MCAL/INTERRUPT/mcal_internal_interrupt.c MCAL/INTERRUPT/mcal_external_interrupt.c MCAL/INTERRUPT/mcal_interrupt_manager.c MCAL/TIMER0/mcal_timer0.c MCAL/TIMER1/mcal_timer1.c MCAL/TIMER2/mcal_timer2.c MCAL/TIMER3/mcal_timer3.c MCAL/USART/mcal_usart.c MCAL/device_config.c application.c MCAL/I2C/mcal_i2c.c
+SOURCEFILES=ECU/BUTTON/ecu_button.c ECU/CHAR_LCD/ecu_char_lcd.c ECU/DC_MOTOR/ecu_dc_motor.c ECU/KEY_PAD/ecu_kaypad.c ECU/LED/ecu_led.c ECU/RELAY/ecu_relay.c ECU/SERVO_MOTOR_I2C/ecu_servo_motor_i2c.c ECU/SEVEN_SEGMENT/ecu_seven_segment.c ECU/ecu_layer_init.c MCAL/ADC/mcal_adc.c MCAL/CCP1/mcal_ccp1.c MCAL/EEPROM/mcal_eeprom.c MCAL/GPIO/hal_gpio.c MCAL/I2C/mcal_i2c.c MCAL/INTERRUPT/mcal_internal_interrupt.c MCAL/INTERRUPT/mcal_external_interrupt.c MCAL/INTERRUPT/mcal_interrupt_manager.c MCAL/TIMER0/mcal_timer0.c MCAL/TIMER1/mcal_timer1.c MCAL/TIMER2/mcal_timer2.c MCAL/TIMER3/mcal_timer3.c MCAL/USART/mcal_usart.c MCAL/device_config.c application.c
 
 
 
@@ -142,6 +142,14 @@ ${OBJECTDIR}/ECU/RELAY/ecu_relay.p1: ECU/RELAY/ecu_relay.c  nbproject/Makefile-$
 	@-${MV} ${OBJECTDIR}/ECU/RELAY/ecu_relay.d ${OBJECTDIR}/ECU/RELAY/ecu_relay.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/ECU/RELAY/ecu_relay.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
+${OBJECTDIR}/ECU/SERVO_MOTOR_I2C/ecu_servo_motor_i2c.p1: ECU/SERVO_MOTOR_I2C/ecu_servo_motor_i2c.c  nbproject/Makefile-${CND_CONF}.mk 
+	@${MKDIR} "${OBJECTDIR}/ECU/SERVO_MOTOR_I2C" 
+	@${RM} ${OBJECTDIR}/ECU/SERVO_MOTOR_I2C/ecu_servo_motor_i2c.p1.d 
+	@${RM} ${OBJECTDIR}/ECU/SERVO_MOTOR_I2C/ecu_servo_motor_i2c.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/ECU/SERVO_MOTOR_I2C/ecu_servo_motor_i2c.p1 ECU/SERVO_MOTOR_I2C/ecu_servo_motor_i2c.c 
+	@-${MV} ${OBJECTDIR}/ECU/SERVO_MOTOR_I2C/ecu_servo_motor_i2c.d ${OBJECTDIR}/ECU/SERVO_MOTOR_I2C/ecu_servo_motor_i2c.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/ECU/SERVO_MOTOR_I2C/ecu_servo_motor_i2c.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
 ${OBJECTDIR}/ECU/SEVEN_SEGMENT/ecu_seven_segment.p1: ECU/SEVEN_SEGMENT/ecu_seven_segment.c  nbproject/Makefile-${CND_CONF}.mk 
 	@${MKDIR} "${OBJECTDIR}/ECU/SEVEN_SEGMENT" 
 	@${RM} ${OBJECTDIR}/ECU/SEVEN_SEGMENT/ecu_seven_segment.p1.d 
@@ -189,6 +197,14 @@ ${OBJECTDIR}/MCAL/GPIO/hal_gpio.p1: MCAL/GPIO/hal_gpio.c  nbproject/Makefile-${C
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/MCAL/GPIO/hal_gpio.p1 MCAL/GPIO/hal_gpio.c 
 	@-${MV} ${OBJECTDIR}/MCAL/GPIO/hal_gpio.d ${OBJECTDIR}/MCAL/GPIO/hal_gpio.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/MCAL/GPIO/hal_gpio.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1: MCAL/I2C/mcal_i2c.c  nbproject/Makefile-${CND_CONF}.mk 
+	@${MKDIR} "${OBJECTDIR}/MCAL/I2C" 
+	@${RM} ${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1.d 
+	@${RM} ${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1 MCAL/I2C/mcal_i2c.c 
+	@-${MV} ${OBJECTDIR}/MCAL/I2C/mcal_i2c.d ${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
 ${OBJECTDIR}/MCAL/INTERRUPT/mcal_internal_interrupt.p1: MCAL/INTERRUPT/mcal_internal_interrupt.c  nbproject/Makefile-${CND_CONF}.mk 
 	@${MKDIR} "${OBJECTDIR}/MCAL/INTERRUPT" 
@@ -270,14 +286,6 @@ ${OBJECTDIR}/application.p1: application.c  nbproject/Makefile-${CND_CONF}.mk
 	@-${MV} ${OBJECTDIR}/application.d ${OBJECTDIR}/application.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/application.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1: MCAL/I2C/mcal_i2c.c  nbproject/Makefile-${CND_CONF}.mk 
-	@${MKDIR} "${OBJECTDIR}/MCAL/I2C" 
-	@${RM} ${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1.d 
-	@${RM} ${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1 MCAL/I2C/mcal_i2c.c 
-	@-${MV} ${OBJECTDIR}/MCAL/I2C/mcal_i2c.d ${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
 else
 ${OBJECTDIR}/ECU/BUTTON/ecu_button.p1: ECU/BUTTON/ecu_button.c  nbproject/Makefile-${CND_CONF}.mk 
 	@${MKDIR} "${OBJECTDIR}/ECU/BUTTON" 
@@ -327,6 +335,14 @@ ${OBJECTDIR}/ECU/RELAY/ecu_relay.p1: ECU/RELAY/ecu_relay.c  nbproject/Makefile-$
 	@-${MV} ${OBJECTDIR}/ECU/RELAY/ecu_relay.d ${OBJECTDIR}/ECU/RELAY/ecu_relay.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/ECU/RELAY/ecu_relay.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
+${OBJECTDIR}/ECU/SERVO_MOTOR_I2C/ecu_servo_motor_i2c.p1: ECU/SERVO_MOTOR_I2C/ecu_servo_motor_i2c.c  nbproject/Makefile-${CND_CONF}.mk 
+	@${MKDIR} "${OBJECTDIR}/ECU/SERVO_MOTOR_I2C" 
+	@${RM} ${OBJECTDIR}/ECU/SERVO_MOTOR_I2C/ecu_servo_motor_i2c.p1.d 
+	@${RM} ${OBJECTDIR}/ECU/SERVO_MOTOR_I2C/ecu_servo_motor_i2c.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/ECU/SERVO_MOTOR_I2C/ecu_servo_motor_i2c.p1 ECU/SERVO_MOTOR_I2C/ecu_servo_motor_i2c.c 
+	@-${MV} ${OBJECTDIR}/ECU/SERVO_MOTOR_I2C/ecu_servo_motor_i2c.d ${OBJECTDIR}/ECU/SERVO_MOTOR_I2C/ecu_servo_motor_i2c.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/ECU/SERVO_MOTOR_I2C/ecu_servo_motor_i2c.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
 ${OBJECTDIR}/ECU/SEVEN_SEGMENT/ecu_seven_segment.p1: ECU/SEVEN_SEGMENT/ecu_seven_segment.c  nbproject/Makefile-${CND_CONF}.mk 
 	@${MKDIR} "${OBJECTDIR}/ECU/SEVEN_SEGMENT" 
 	@${RM} ${OBJECTDIR}/ECU/SEVEN_SEGMENT/ecu_seven_segment.p1.d 
@@ -374,6 +390,14 @@ ${OBJECTDIR}/MCAL/GPIO/hal_gpio.p1: MCAL/GPIO/hal_gpio.c  nbproject/Makefile-${C
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/MCAL/GPIO/hal_gpio.p1 MCAL/GPIO/hal_gpio.c 
 	@-${MV} ${OBJECTDIR}/MCAL/GPIO/hal_gpio.d ${OBJECTDIR}/MCAL/GPIO/hal_gpio.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/MCAL/GPIO/hal_gpio.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1: MCAL/I2C/mcal_i2c.c  nbproject/Makefile-${CND_CONF}.mk 
+	@${MKDIR} "${OBJECTDIR}/MCAL/I2C" 
+	@${RM} ${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1.d 
+	@${RM} ${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1 MCAL/I2C/mcal_i2c.c 
+	@-${MV} ${OBJECTDIR}/MCAL/I2C/mcal_i2c.d ${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
 ${OBJECTDIR}/MCAL/INTERRUPT/mcal_internal_interrupt.p1: MCAL/INTERRUPT/mcal_internal_interrupt.c  nbproject/Makefile-${CND_CONF}.mk 
 	@${MKDIR} "${OBJECTDIR}/MCAL/INTERRUPT" 
@@ -454,14 +478,6 @@ ${OBJECTDIR}/application.p1: application.c  nbproject/Makefile-${CND_CONF}.mk
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/application.p1 application.c 
 	@-${MV} ${OBJECTDIR}/application.d ${OBJECTDIR}/application.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/application.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1: MCAL/I2C/mcal_i2c.c  nbproject/Makefile-${CND_CONF}.mk 
-	@${MKDIR} "${OBJECTDIR}/MCAL/I2C" 
-	@${RM} ${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1.d 
-	@${RM} ${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gcoff -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1 MCAL/I2C/mcal_i2c.c 
-	@-${MV} ${OBJECTDIR}/MCAL/I2C/mcal_i2c.d ${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/MCAL/I2C/mcal_i2c.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
 endif
 
